@@ -1,0 +1,22 @@
+server {
+    listen 443 ssl;
+    
+    ssl_certificate /home/youssef/Desktop/CS/local/server/server.crt;
+    ssl_certificate_key /home/youssef/Desktop/CS/local/server/server.key;
+
+    server_name ymahni.42.fr;
+
+    root /var/www/html/fr;
+}
+
+
+server {
+    listen 443 ssl;
+    
+    ssl_certificate /home/youssef/Desktop/CS/local/server/server.crt;
+    ssl_certificate_key /home/youssef/Desktop/CS/local/server/server.key;
+
+    server_name ymahni.42.ma;
+
+    root /var/www/html;
+}
